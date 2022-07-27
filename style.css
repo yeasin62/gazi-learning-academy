@@ -16,3 +16,10 @@ body {
     width: 100%;
     height: 100%;
  }
+
+ /*-------------------------------------
+  elearning section css  
+  --------------------------------------*/
+  .elearning {
+    background:#F4FAFD;
+  }
