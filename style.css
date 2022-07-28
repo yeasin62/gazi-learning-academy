@@ -23,6 +23,9 @@ p {
  .navbar-nav ul li a {
     color:#777777;
  }
+ .header_area {
+    background-color: #fff;
+ }
 
 /*-------------------------------
  slider area css  
@@ -45,7 +48,7 @@ p {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: left;
+    object-position: center;
  }
  /*-------------------------------------
   elearning section css  
