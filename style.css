@@ -14,6 +14,9 @@ body {
 .gray_color {
     color:#777777;
 }
+p {
+    color:#777777;
+}
 /*----------------------------------
  navigation css  
  ------------------------------------*/
@@ -214,7 +217,7 @@ students section css
         padding:5px 10px;
         font-size:14px;
     }
-    .carousel-item img {
+    .slider_area .carousel-item img {
         height:300px;
         object-fit: cover;
         object-position: center;
