@@ -30,3 +30,21 @@ body {
   .register_area_bg {
     background-color: #289BDE;
   }
+
+  
+   /*-------------------------------------
+  testimonial section css  
+  --------------------------------------*/
+  .rating .fa-star {
+    color:#FBBF24;
+  }
+  .next {
+    margin-right: -40px;
+  }
+  .start {
+    margin-left: -40px;
+  }
+.fa-quote-right {
+    color:#D2D2D2;
+    font-size: 55px;
+}
