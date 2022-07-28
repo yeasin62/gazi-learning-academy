@@ -48,3 +48,18 @@ body {
     color:#D2D2D2;
     font-size: 55px;
 }
+
+   /*-------------------------------------
+  testimonial section css  
+  --------------------------------------*/
+  .footer_area {
+    background-color: #161616;
+  }
+  .social a {
+    color:#fff;
+    font-size: 18px;
+    padding:15px;
+    margin:5px;
+    background:#242424;
+    border-radius: 10px;
+  }
