@@ -1,6 +1,24 @@
+/*----------------------------------
+ global css  
+ ------------------------------------*/
 body {
     font-family: 'Poppins', sans-serif;
 }
+.blue_color {
+    color:#289BDE;
+}
+.blue_bg {
+    background: #289BDE;
+}
+.gray_color {
+    color:#777777;
+}
+/*----------------------------------
+ navigation css  
+ ------------------------------------*/
+ .navbar-nav ul li a {
+    color:#777777;
+ }
 
 /*-------------------------------
  slider area css  
@@ -16,7 +34,15 @@ body {
     width: 100%;
     height: 100%;
  }
-
+/*-------------------------------
+ Course  area css  
+ ---------------------------------*/
+ .obj {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
+ }
  /*-------------------------------------
   elearning section css  
   --------------------------------------*/
@@ -25,16 +51,15 @@ body {
   }
 
    /*-------------------------------------
-  elearning section css  
+  call to action section css  
   --------------------------------------*/
   .register_area_bg {
     background-color: #289BDE;
   }
 
-  
-   /*-------------------------------------
+/*-------------------------------------
   testimonial section css  
-  --------------------------------------*/
+--------------------------------------*/
   .rating .fa-star {
     color:#FBBF24;
   }
@@ -49,9 +74,15 @@ body {
     font-size: 55px;
 }
 
-   /*-------------------------------------
-  testimonial section css  
-  --------------------------------------*/
+/*-------------------------------------
+students section css  
+--------------------------------------*/
+.students_title {
+    max-width: 600px;
+}
+/*-------------------------------------
+ footer section css  
+--------------------------------------*/
   .footer_area {
     background-color: #161616;
   }
@@ -62,4 +93,120 @@ body {
     margin:5px;
     background:#242424;
     border-radius: 10px;
+  }
+/*-------------------------------
+ faq css  
+ ---------------------------------*/
+.faq_inner, .course_title, .testimonial_title {
+    max-width: 700px;
+    margin:0 auto;
+}
+
+/* for tab screen  */
+  @media only screen and (min-width:768px) and (max-width:992px){
+    .slider-text {
+        bottom: 20%;
+     }
+     .fs-small {
+        font-size: 25px;
+     }
+     .control-flex {
+        flex-direction: column !important;
+        align-items: center !important;
+        text-align:center;
+    }
+    .register_inner_left {
+        width: 100% !important;
+    }
+    .register_inner_right {
+        width: 100% !important;
+    }
+    .resp_title {
+        font-size:18px !important;
+    }
+    .res_paragraph {
+        font-size:13px;
+    }
+  }
+
+  /* mini device larger than mobile  */
+  @media only screen and (min-width:577px) and (max-width:767px){
+    .register_inner_left {
+        width: 100% !important;
+    }
+    .register_inner_right {
+        width: 100% !important;
+    }
+     .control-flex {
+        flex-direction: column !important;
+        align-items: center !important;
+        text-align:center;
+    }
+    .resp_title {
+        font-size:20px !important;
+    }
+    .res_paragraph {
+        font-size:13px;
+    }
+    .exolore {
+        height: 400px;
+        width: 100%;
+        object-fit: cover;
+        object-position: top;
+    }
+    .slider-text {
+        bottom: 10%;
+    }
+    .fs-small {
+        font-size:20px !important;
+    }
+    p {
+        font-size:14px;
+    }
+  }
+
+  /* for small screen (mobile device )  */
+  @media only screen and (max-width:576px){
+    .slider-text {
+        bottom: 15%;
+     }
+     .fs-small {
+        font-size: 17px !important;
+     }
+     .register_inner_left {
+        width: 100% !important;
+    }
+    .register_inner_right {
+        width: 100% !important;
+    }
+     .control-flex {
+        flex-direction: column !important;
+        align-items: center !important;
+        text-align:center;
+    }
+    .resp_title {
+        font-size:18px;
+    }
+    .res_paragraph {
+        font-size:13px;
+    }
+    .exolore {
+        height: 300px;
+        width: 100%;
+        object-fit: cover;
+        object-position: top;
+    }
+    
+    .students_title {
+        text-align: center;
+    }
+    .logo-text {
+        font-size:18px;
+     }
+     .slider-text {
+        bottom: 0%;
+    }
+    p {
+        font-size:14px;
+    }
   }
