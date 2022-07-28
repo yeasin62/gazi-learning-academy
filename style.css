@@ -205,12 +205,18 @@ students section css
         font-size:18px;
      }
      .slider-text {
-        bottom: 0%;
+        bottom: 20%;
     }
     p {
         font-size:14px;
     }
-    body {
-        overflow-x:hidden;
+    .btn-mobile {
+        padding:5px 10px;
+        font-size:14px;
+    }
+    .carousel-item img {
+        height:300px;
+        object-fit: cover;
+        object-position: center;
     }
   }
